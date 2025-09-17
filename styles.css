@@ -157,7 +157,7 @@ button {
 }
 
 #clear-all {
-    background: var(--earth-brown);
+    background: var(--stone-gray);
     color: white;
     box-shadow: var(--shadow);
 }
@@ -176,6 +176,18 @@ button {
 
 #export-data:hover {
     background: var(--forest-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg);
+}
+
+#import-data {
+    background: var(--earth-brown);
+    color: white;
+    box-shadow: var(--shadow);
+}
+
+#import-data:hover {
+    background: var(--charcoal);
     transform: translateY(-1px);
     box-shadow: var(--shadow-lg);
 }
