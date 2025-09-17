@@ -65,17 +65,27 @@ class EBRPTracker {
                 polygon.bindPopup(this.createPopupContent(park));
 
                 polygon.on('mouseover', (e) => {
-                    e.target.setStyle({
-                        weight: 3,
-                        fillOpacity: 0.6
-                    });
+                    // Highlight ALL polygons for this park
+                    if (this.polygons[park.id]) {
+                        this.polygons[park.id].forEach(poly => {
+                            poly.setStyle({
+                                weight: 3,
+                                fillOpacity: 0.6
+                            });
+                        });
+                    }
                 });
 
                 polygon.on('mouseout', (e) => {
-                    e.target.setStyle({
-                        weight: 2,
-                        fillOpacity: 0.4
-                    });
+                    // Reset ALL polygons for this park
+                    if (this.polygons[park.id]) {
+                        this.polygons[park.id].forEach(poly => {
+                            poly.setStyle({
+                                weight: 2,
+                                fillOpacity: 0.4
+                            });
+                        });
+                    }
                 });
 
                 polygon.on('click', (e) => {
@@ -301,6 +311,7 @@ class EBRPTracker {
         const allParkIds = new Set([...Object.keys(this.markers), ...Object.keys(this.polygons)]);
         allParkIds.forEach(parkId => {
             this.updateMarker(parseInt(parkId));
+            this.updatePopupContent(parseInt(parkId)); // Update popup content too
         });
 
         this.renderParkList();
