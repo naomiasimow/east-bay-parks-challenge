@@ -6,7 +6,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.75,
         "lng": -122.1167,
-        "acres": 1000,
+        "acres": 3342.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/anthony-chabot-regional-park"
     },
@@ -17,7 +17,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0166,
         "lng": -121.8167,
-        "acres": 1000,
+        "acres": 5.7,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/antioch-oakley-regional-shoreline"
     },
@@ -28,7 +28,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.55,
         "lng": -122.0667,
-        "acres": 1000,
+        "acres": 204.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/ardenwood-historic-farm"
     },
@@ -39,7 +39,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0333,
         "lng": -121.9333,
-        "acres": 1000,
+        "acres": 137.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/bay-point-regional-shoreline"
     },
@@ -50,7 +50,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -121.7167,
-        "acres": 1000,
+        "acres": 1657.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/big-break-regional-shoreline"
     },
@@ -61,7 +61,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7667,
         "lng": -122.0167,
-        "acres": 1000,
+        "acres": 983.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/bishop-ranch-open-space-regional-preserve"
     },
@@ -72,7 +72,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9667,
         "lng": -121.85,
-        "acres": 1000,
+        "acres": 5677.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/black-diamond-mines-regional-preserve"
     },
@@ -83,7 +83,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9333,
         "lng": -122.1667,
-        "acres": 1000,
+        "acres": 6223.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/briones-regional-park"
     },
@@ -94,7 +94,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -122.4,
-        "acres": 1000,
+        "acres": 378.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/brooks-island-regional-preserve"
     },
@@ -105,7 +105,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0333,
         "lng": -121.8833,
-        "acres": 1000,
+        "acres": 600.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/browns-island"
     },
@@ -116,7 +116,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6667,
         "lng": -121.7333,
-        "acres": 1000,
+        "acres": 1931.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/brushy-peak-regional-preserve"
     },
@@ -127,7 +127,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -122.2167,
-        "acres": 1000,
+        "acres": 1550.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/carquinez-strait-regional-shoreline"
     },
@@ -149,7 +149,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.25,
-        "acres": 1000,
+        "acres": 1467.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/tilden-charles-lee-tilden-regional-park"
     },
@@ -160,7 +160,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2167,
-        "acres": 1000,
+        "acres": 3.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/claremont-canyon-regional-preserve"
     },
@@ -171,7 +171,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -121.7667,
-        "acres": 1000,
+        "acres": 681.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/contra-loma-regional-park"
     },
@@ -182,7 +182,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.55,
         "lng": -122.1,
-        "acres": 1000,
+        "acres": 1238.7,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/coyote-hills-regional-park"
     },
@@ -193,7 +193,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -122.2333,
-        "acres": 1000,
+        "acres": 2114.8,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/crockett-hills-regional-park"
     },
@@ -204,7 +204,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.65,
         "lng": -122.0333,
-        "acres": 1000,
+        "acres": 361.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/cull-canyon-regional-recreation-area"
     },
@@ -215,7 +215,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -121.8333,
-        "acres": 1000,
+        "acres": 3448.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/deer-valley-regional-park"
     },
@@ -226,7 +226,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5833,
         "lng": -121.6833,
-        "acres": 1000,
+        "acres": 1284.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/del-valle-regional-park"
     },
@@ -237,7 +237,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.0,
-        "acres": 1000,
+        "acres": 996.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/diablo-foothills-regional-park"
     },
@@ -248,7 +248,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6833,
         "lng": -122.0833,
-        "acres": 1000,
+        "acres": 94.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/don-castro-regional-recreation-area"
     },
@@ -259,7 +259,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.1833,
-        "acres": 1000,
+        "acres": 1783.7,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/redwood-dr-aurelia-reinhardt-redwood-regional-park"
     },
@@ -270,7 +270,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7167,
         "lng": -121.8833,
-        "acres": 1000,
+        "acres": 642.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/dublin-hills-regional-park"
     },
@@ -281,7 +281,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -122.1167,
-        "acres": 1000,
+        "acres": 37.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/dumbarton-quarry-campground-on-the-bay"
     },
@@ -292,7 +292,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7833,
         "lng": -122.0333,
-        "acres": 1000,
+        "acres": 226.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/five-canyons-open-space"
     },
@@ -303,7 +303,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6167,
         "lng": -122.0,
-        "acres": 1000,
+        "acres": 4449.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/garin-regional-park"
     },
@@ -314,7 +314,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6,
         "lng": -122.0167,
-        "acres": 1000,
+        "acres": 1675.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/dry-creek-pioneer-regional-park"
     },
@@ -325,7 +325,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6333,
         "lng": -122.1167,
-        "acres": 1000,
+        "acres": 1023.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/hayward-regional-shoreline"
     },
@@ -336,7 +336,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.2,
-        "acres": 1000,
+        "acres": 238.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/huckleberry-botanic-regional-preserve"
     },
@@ -347,7 +347,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0,
         "lng": -121.85,
-        "acres": 1000,
+        "acres": 32.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/judge-john-sutter-regional-shoreline"
     },
@@ -358,7 +358,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9667,
         "lng": -122.2833,
-        "acres": 1000,
+        "acres": 218.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/kennedy-grove-regional-recreation-area"
     },
@@ -369,7 +369,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7167,
         "lng": -122.1167,
-        "acres": 1000,
+        "acres": 1628.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/lake-chabot-regional-park"
     },
@@ -380,7 +380,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.0167,
-        "acres": 1000,
+        "acres": 5887.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/las-trampas-wilderness-regional-preserve"
     },
@@ -391,7 +391,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.75,
         "lng": -122.1833,
-        "acres": 1000,
+        "acres": 297.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/leona-canyon-regional-open-space-preserve"
     },
@@ -413,7 +413,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7833,
         "lng": -122.2167,
-        "acres": 1000,
+        "acres": 773.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/martin-luther-king-jr-regional-shoreline"
     },
@@ -424,7 +424,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -122.3167,
-        "acres": 1000,
+        "acres": 1896.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/mclaughlin-eastshore-state-park"
     },
@@ -435,7 +435,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -122.3833,
-        "acres": 1000,
+        "acres": 317.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/miller-knox-regional-shoreline"
     },
@@ -446,7 +446,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8833,
-        "acres": 1000,
+        "acres": 3039.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/mission-peak-regional-preserve"
     },
@@ -457,7 +457,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -121.8167,
-        "acres": 1000,
+        "acres": 6090.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/morgan-territory-regional-preserve"
     },
@@ -468,7 +468,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8167,
-        "acres": 1000,
+        "acres": 9047.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/ohlone-wilderness-regional-preserve"
     },
@@ -479,7 +479,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6833,
         "lng": -122.2,
-        "acres": 1000,
+        "acres": 194.8,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/oyster-bay-regional-shoreline"
     },
@@ -490,7 +490,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.6333,
         "lng": -121.8833,
-        "acres": 1000,
+        "acres": 8923.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/pleasanton-ridge-regional-park"
     },
@@ -501,7 +501,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9,
         "lng": -122.3667,
-        "acres": 1000,
+        "acres": 38.0,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/point-isabel-regional-shoreline"
     },
@@ -512,7 +512,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -122.3667,
-        "acres": 1000,
+        "acres": 2202.8,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/point-pinole-regional-shoreline"
     },
@@ -523,7 +523,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5333,
         "lng": -121.9667,
-        "acres": 1000,
+        "acres": 479.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/quarry-lakes-regional-recreation-area"
     },
@@ -534,7 +534,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.7667,
         "lng": -122.2667,
-        "acres": 1000,
+        "acres": 99.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/robert-w-crown-memorial-state-beach"
     },
@@ -545,7 +545,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8333,
         "lng": -122.1833,
-        "acres": 1000,
+        "acres": 120.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/roberts-regional-recreation-area"
     },
@@ -556,7 +556,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -121.7167,
-        "acres": 1000,
+        "acres": 2054.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/round-valley-regional-preserve"
     },
@@ -567,7 +567,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.65,
         "lng": -121.8667,
-        "acres": 1000,
+        "acres": 259.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/shadow-cliffs-regional-recreation-area"
     },
@@ -578,7 +578,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2,
-        "acres": 1000,
+        "acres": 927.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/sibley-volcanic-regional-preserve"
     },
@@ -589,7 +589,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -122.2667,
-        "acres": 1000,
+        "acres": 272.4,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/sobrante-ridge-regional-preserve"
     },
@@ -600,7 +600,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8333,
-        "acres": 1000,
+        "acres": 6818.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/sunol-wilderness-regional-preserve"
     },
@@ -611,7 +611,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -121.9833,
-        "acres": 1000,
+        "acres": 692.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/sycamore-valley-open-space-regional-preserve"
     },
@@ -622,7 +622,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0167,
         "lng": -122.1333,
-        "acres": 1000,
+        "acres": 333.4,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/ted-and-kathy-radke-martinez-regional-shoreline"
     },
@@ -633,7 +633,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2333,
-        "acres": 1000,
+        "acres": 41.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/temescal-regional-recreation-area"
     },
@@ -644,7 +644,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -122.2833,
-        "acres": 1000,
+        "acres": 2545.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/thurgood-marshall-regional-park"
     },
@@ -655,7 +655,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.25,
-        "acres": 1000,
+        "acres": 709.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/tilden-nature-area"
     },
@@ -677,7 +677,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.5667,
         "lng": -121.9167,
-        "acres": 1000,
+        "acres": 1260.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/vargas-plateau-regional-park"
     },
@@ -688,7 +688,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -121.7333,
-        "acres": 1000,
+        "acres": 719.8,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/vasco-caves-regional-preserve"
     },
@@ -699,7 +699,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 38.0167,
         "lng": -121.8167,
-        "acres": 1000,
+        "acres": 198.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/waterbird-regional-preserve"
     },
@@ -710,7 +710,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.95,
         "lng": -122.3167,
-        "acres": 1000,
+        "acres": 2722.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/wildcat-canyon-regional-park"
     }

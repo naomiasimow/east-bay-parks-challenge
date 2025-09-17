@@ -2,7 +2,7 @@ class EBRPTracker {
     constructor() {
         this.map = null;
         this.markers = {};
-        this.polygons = {};
+        this.polygons = {}; // Store arrays of polygons per park for multi-polygon parks
         this.parkBoundaries = null;
         this.visitedParks = new Set();
         this.currentSort = 'alphabetical';
@@ -58,7 +58,7 @@ class EBRPTracker {
                         weight: 2,
                         opacity: 0.8,
                         fillColor: color,
-                        fillOpacity: 0.3
+                        fillOpacity: 0.4
                     }
                 }).addTo(this.map);
 
@@ -67,22 +67,26 @@ class EBRPTracker {
                 polygon.on('mouseover', (e) => {
                     e.target.setStyle({
                         weight: 3,
-                        fillOpacity: 0.5
+                        fillOpacity: 0.6
                     });
                 });
 
                 polygon.on('mouseout', (e) => {
                     e.target.setStyle({
                         weight: 2,
-                        fillOpacity: 0.3
+                        fillOpacity: 0.4
                     });
                 });
 
-                polygon.on('click', () => {
-                    this.toggleParkVisit(park.id);
+                polygon.on('click', (e) => {
+                    e.target.openPopup();
                 });
 
-                this.polygons[park.id] = polygon;
+                // Store polygons in arrays to handle multi-polygon parks
+                if (!this.polygons[park.id]) {
+                    this.polygons[park.id] = [];
+                }
+                this.polygons[park.id].push(polygon);
             }
         });
     }
@@ -90,7 +94,7 @@ class EBRPTracker {
     createParkMarkers() {
         parksData.forEach(park => {
             // Only create markers for parks without polygon boundaries
-            if (!this.polygons[park.id]) {
+            if (!this.polygons[park.id] || this.polygons[park.id].length === 0) {
                 const isVisited = this.visitedParks.has(park.id);
                 const icon = this.createParkIcon(isVisited);
 
@@ -100,8 +104,8 @@ class EBRPTracker {
 
                 // Remove hover popup behavior for markers too
 
-                marker.on('click', () => {
-                    this.toggleParkVisit(park.id);
+                marker.on('click', (e) => {
+                    e.target.openPopup();
                 });
 
                 this.markers[park.id] = marker;
@@ -213,11 +217,16 @@ class EBRPTracker {
         const isVisited = this.visitedParks.has(parkId);
         const color = isVisited ? '#1B4D3E' : '#4CAF50';
 
-        // Update polygon if it exists
-        if (this.polygons[parkId]) {
-            this.polygons[parkId].setStyle({
-                color: color,
-                fillColor: color
+        // Update all polygons if they exist (for multi-polygon parks)
+        if (this.polygons[parkId] && this.polygons[parkId].length > 0) {
+            this.polygons[parkId].forEach(polygon => {
+                polygon.setStyle({
+                    color: color,
+                    fillColor: color,
+                    fillOpacity: 0.4,
+                    opacity: 0.8,
+                    weight: 2
+                });
             });
         }
 
@@ -239,9 +248,11 @@ class EBRPTracker {
         const park = parksData.find(p => p.id === parkId);
         const content = this.createPopupContent(park);
 
-        // Update polygon popup if it exists
-        if (this.polygons[parkId]) {
-            this.polygons[parkId].setPopupContent(content);
+        // Update all polygon popups if they exist (for multi-polygon parks)
+        if (this.polygons[parkId] && this.polygons[parkId].length > 0) {
+            this.polygons[parkId].forEach(polygon => {
+                polygon.setPopupContent(content);
+            });
         }
 
         // Update marker popup if it exists
@@ -255,9 +266,17 @@ class EBRPTracker {
         const totalCount = parksData.length;
         const percentage = Math.round((visitedCount / totalCount) * 100);
 
+        // Calculate acreage statistics
+        const totalAcres = parksData.reduce((sum, park) => sum + park.acres, 0);
+        const visitedAcres = parksData
+            .filter(park => this.visitedParks.has(park.id))
+            .reduce((sum, park) => sum + park.acres, 0);
+
         document.getElementById('visited-count').textContent = visitedCount;
         document.getElementById('total-count').textContent = totalCount;
         document.getElementById('percentage').textContent = `${percentage}%`;
+        document.getElementById('total-acres').textContent = totalAcres.toLocaleString();
+        document.getElementById('visited-acres').textContent = visitedAcres.toLocaleString();
     }
 
     setupEventListeners() {
@@ -281,7 +300,8 @@ class EBRPTracker {
         this.visitedParks.clear();
 
         // Update all markers and polygons
-        [...Object.keys(this.markers), ...Object.keys(this.polygons)].forEach(parkId => {
+        const allParkIds = new Set([...Object.keys(this.markers), ...Object.keys(this.polygons)]);
+        allParkIds.forEach(parkId => {
             this.updateMarker(parseInt(parkId));
         });
 
