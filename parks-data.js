@@ -138,7 +138,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.89209763284675,
         "lng": -121.99379879814697,
-        "acres": 1000,
+        "acres": 10,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/castle-rock-regional-recreation-area"
     },
@@ -402,7 +402,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.81002212697784,
         "lng": -122.04367616409863,
-        "acres": 1000,
+        "acres": 100,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/little-hills"
     },
@@ -666,7 +666,7 @@ const parksData = [
         "county": "Alameda/Contra Costa",
         "lat": 37.89355003836973,
         "lng": -122.24329555916034,
-        "acres": 1000,
+        "acres": 10,
         "description": "Beautiful park in the East Bay Regional Parks system",
         "website": "https://www.ebparks.org/parks/tilden/botanic-garden"
     },
