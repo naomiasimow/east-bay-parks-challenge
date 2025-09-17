@@ -302,6 +302,14 @@ class EBRPTracker {
         document.getElementById('export-data').addEventListener('click', () => {
             this.exportProgress();
         });
+
+        document.getElementById('import-data').addEventListener('click', () => {
+            document.getElementById('import-file').click();
+        });
+
+        document.getElementById('import-file').addEventListener('change', (e) => {
+            this.importProgress(e.target.files[0]);
+        });
     }
 
     clearAllVisits() {
@@ -323,6 +331,7 @@ class EBRPTracker {
         const visitedParkDetails = parksData
             .filter(park => this.visitedParks.has(park.id))
             .map(park => ({
+                id: park.id,
                 name: park.name,
                 city: park.city,
                 county: park.county,
@@ -334,7 +343,8 @@ class EBRPTracker {
             visitedCount: this.visitedParks.size,
             percentage: Math.round((this.visitedParks.size / parksData.length) * 100),
             exportDate: new Date().toISOString().split('T')[0],
-            visitedParks: visitedParkDetails
+            visitedParks: visitedParkDetails,
+            visitedParkIds: Array.from(this.visitedParks)
         };
 
         const dataStr = JSON.stringify(exportData, null, 2);
@@ -344,6 +354,68 @@ class EBRPTracker {
         link.href = URL.createObjectURL(dataBlob);
         link.download = `ebrp-progress-${exportData.exportDate}.json`;
         link.click();
+    }
+
+    importProgress(file) {
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            try {
+                const importData = JSON.parse(e.target.result);
+
+                // Validate the file format
+                if (!importData.visitedParkIds || !Array.isArray(importData.visitedParkIds)) {
+                    alert('Invalid file format. Please select a valid EBRP progress file.');
+                    return;
+                }
+
+                // Confirm import
+                const confirmMessage = `Import progress from ${importData.exportDate || 'unknown date'}?\n\n` +
+                    `This will replace your current progress:\n` +
+                    `• Current: ${this.visitedParks.size} parks visited\n` +
+                    `• Import: ${importData.visitedCount || importData.visitedParkIds.length} parks visited`;
+
+                if (confirm(confirmMessage)) {
+                    // Clear current progress
+                    this.visitedParks.clear();
+
+                    // Import visited parks
+                    importData.visitedParkIds.forEach(parkId => {
+                        // Validate park ID exists in current data
+                        if (parksData.find(p => p.id === parkId)) {
+                            this.visitedParks.add(parkId);
+                        }
+                    });
+
+                    // Update UI
+                    this.updateAllParkVisuals();
+                    this.renderParkList();
+                    this.saveVisitedParks();
+                    this.updateStats();
+
+                    alert(`Successfully imported progress! ${this.visitedParks.size} parks marked as visited.`);
+                }
+
+            } catch (error) {
+                console.error('Import error:', error);
+                alert('Error reading file. Please make sure it\'s a valid EBRP progress file.');
+            }
+        };
+
+        reader.readAsText(file);
+
+        // Reset the file input so the same file can be selected again
+        document.getElementById('import-file').value = '';
+    }
+
+    updateAllParkVisuals() {
+        // Update all markers and polygons
+        const allParkIds = new Set([...Object.keys(this.markers), ...Object.keys(this.polygons)]);
+        allParkIds.forEach(parkId => {
+            this.updateMarker(parseInt(parkId));
+            this.updatePopupContent(parseInt(parkId));
+        });
     }
 
     saveVisitedParks() {
