@@ -151,7 +151,7 @@ const parksData = [
         "lng": -122.25,
         "acres": 1467.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/tilden-charles-lee-tilden-regional-park"
+        "website": "https://www.ebparks.org/parks/tilden"
     },
     {
         "id": 15,
@@ -195,7 +195,7 @@ const parksData = [
         "lng": -122.2333,
         "acres": 2114.8,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/crockett-hills-regional-park"
+        "website": "https://www.ebparks.org/parks/crockett-hills"
     },
     {
         "id": 19,
@@ -206,7 +206,7 @@ const parksData = [
         "lng": -122.0333,
         "acres": 361.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/cull-canyon-regional-recreation-area"
+        "website": "https://www.ebparks.org/parks/cull-canyon"
     },
     {
         "id": 20,
@@ -228,7 +228,7 @@ const parksData = [
         "lng": -121.6833,
         "acres": 1284.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/del-valle-regional-park"
+        "website": "https://www.ebparks.org/parks/del-valle"
     },
     {
         "id": 22,
@@ -239,7 +239,7 @@ const parksData = [
         "lng": -122.0,
         "acres": 996.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/diablo-foothills-regional-park"
+        "website": "https://www.ebparks.org/parks/diablo-foothills"
     },
     {
         "id": 23,
@@ -250,7 +250,7 @@ const parksData = [
         "lng": -122.0833,
         "acres": 94.6,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/don-castro-regional-recreation-area"
+        "website": "https://www.ebparks.org/parks/don-castro"
     },
     {
         "id": 24,
@@ -261,7 +261,7 @@ const parksData = [
         "lng": -122.1833,
         "acres": 1783.7,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/redwood-dr-aurelia-reinhardt-redwood-regional-park"
+        "website": "https://www.ebparks.org/parks/reinhardt-redwood"
     },
     {
         "id": 25,
@@ -272,7 +272,7 @@ const parksData = [
         "lng": -121.8833,
         "acres": 642.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/dublin-hills-regional-park"
+        "website": "https://www.ebparks.org/parks/dublin-hills"
     },
     {
         "id": 26,
@@ -283,7 +283,7 @@ const parksData = [
         "lng": -122.1167,
         "acres": 37.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/dumbarton-quarry-campground-on-the-bay"
+        "website": "https://www.ebparks.org/parks/dumbarton-quarry"
     },
     {
         "id": 27,
@@ -294,7 +294,7 @@ const parksData = [
         "lng": -122.0333,
         "acres": 226.2,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/five-canyons-open-space"
+        "website": "https://www.ebparks.org/parks/five-canyons"
     },
     {
         "id": 28,
@@ -305,7 +305,7 @@ const parksData = [
         "lng": -122.0,
         "acres": 4449.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/garin-regional-park"
+        "website": "https://www.ebparks.org/parks/garin-dry-creek"
     },
     {
         "id": 29,
@@ -316,7 +316,7 @@ const parksData = [
         "lng": -122.0167,
         "acres": 1675.1,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/dry-creek-pioneer-regional-park"
+        "website": "https://www.ebparks.org/parks/garin-dry-creek"
     },
     {
         "id": 30,
@@ -393,7 +393,7 @@ const parksData = [
         "lng": -122.1833,
         "acres": 297.3,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/leona-canyon-regional-open-space-preserve"
+        "website": "https://www.ebparks.org/parks/leona-canyon"
     },
     {
         "id": 37,
@@ -404,7 +404,7 @@ const parksData = [
         "lng": -122.04367616409863,
         "acres": 1000,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/little-hills-regional-recreation-area"
+        "website": "https://www.ebparks.org/parks/little-hills"
     },
     {
         "id": 38,
@@ -426,7 +426,7 @@ const parksData = [
         "lng": -122.3167,
         "acres": 1896.5,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/mclaughlin-eastshore-state-park"
+        "website": "https://www.ebparks.org/parks/mclaughlin-eastshore"
     },
     {
         "id": 40,
@@ -437,7 +437,7 @@ const parksData = [
         "lng": -122.3833,
         "acres": 317.9,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/miller-knox-regional-shoreline"
+        "website": "https://www.ebparks.org/parks/miller-knox"
     },
     {
         "id": 41,
@@ -591,7 +591,7 @@ const parksData = [
         "lng": -122.2667,
         "acres": 272.4,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/sobrante-ridge-regional-preserve"
+        "website": "https://www.ebparks.org/parks/sobrante-ridge"
     },
     {
         "id": 55,
@@ -624,7 +624,7 @@ const parksData = [
         "lng": -122.1333,
         "acres": 333.4,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/ted-and-kathy-radke-martinez-regional-shoreline"
+        "website": "https://www.ebparks.org/parks/radke-martinez"
     },
     {
         "id": 58,
@@ -668,7 +668,7 @@ const parksData = [
         "lng": -122.24329555916034,
         "acres": 1000,
         "description": "Beautiful park in the East Bay Regional Parks system",
-        "website": "https://www.ebparks.org/parks/tilden-regional-parks-botanic-garden"
+        "website": "https://www.ebparks.org/parks/tilden/botanic-garden"
     },
     {
         "id": 62,
