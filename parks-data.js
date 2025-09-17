@@ -2,7 +2,7 @@ const parksData = [
     {
         "id": 1,
         "name": "Anthony Chabot Regional Park",
-        "city": "Various",
+        "city": "Castro Valley",
         "county": "Alameda/Contra Costa",
         "lat": 37.75,
         "lng": -122.1167,
@@ -13,7 +13,7 @@ const parksData = [
     {
         "id": 2,
         "name": "Antioch/Oakley Regional Shoreline",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 38.0166,
         "lng": -121.8167,
@@ -24,7 +24,7 @@ const parksData = [
     {
         "id": 3,
         "name": "Ardenwood Historic Farm",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.55,
         "lng": -122.0667,
@@ -35,7 +35,7 @@ const parksData = [
     {
         "id": 4,
         "name": "Bay Point Regional Shoreline",
-        "city": "Various",
+        "city": "Bay Point",
         "county": "Alameda/Contra Costa",
         "lat": 38.0333,
         "lng": -121.9333,
@@ -46,7 +46,7 @@ const parksData = [
     {
         "id": 5,
         "name": "Big Break Regional Shoreline",
-        "city": "Various",
+        "city": "Oakley",
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -121.7167,
@@ -57,7 +57,7 @@ const parksData = [
     {
         "id": 6,
         "name": "Bishop Ranch Open Space Regional Preserve",
-        "city": "Various",
+        "city": "San Ramon",
         "county": "Alameda/Contra Costa",
         "lat": 37.7667,
         "lng": -122.0167,
@@ -68,7 +68,7 @@ const parksData = [
     {
         "id": 7,
         "name": "Black Diamond Mines Regional Preserve",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 37.9667,
         "lng": -121.85,
@@ -79,7 +79,7 @@ const parksData = [
     {
         "id": 8,
         "name": "Briones Regional Park",
-        "city": "Various",
+        "city": "Lafayette",
         "county": "Alameda/Contra Costa",
         "lat": 37.9333,
         "lng": -122.1667,
@@ -90,7 +90,7 @@ const parksData = [
     {
         "id": 9,
         "name": "Brooks Island Regional Preserve",
-        "city": "Various",
+        "city": "Richmond",
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -122.4,
@@ -101,7 +101,7 @@ const parksData = [
     {
         "id": 10,
         "name": "Browns Island",
-        "city": "Various",
+        "city": "Pittsburg",
         "county": "Alameda/Contra Costa",
         "lat": 38.0333,
         "lng": -121.8833,
@@ -112,7 +112,7 @@ const parksData = [
     {
         "id": 11,
         "name": "Brushy Peak Regional Preserve",
-        "city": "Various",
+        "city": "Livermore",
         "county": "Alameda/Contra Costa",
         "lat": 37.6667,
         "lng": -121.7333,
@@ -123,7 +123,7 @@ const parksData = [
     {
         "id": 12,
         "name": "Carquinez Strait Regional Shoreline",
-        "city": "Various",
+        "city": "Martinez",
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -122.2167,
@@ -134,7 +134,7 @@ const parksData = [
     {
         "id": 13,
         "name": "Castle Rock Regional Recreation Area",
-        "city": "Various",
+        "city": "Walnut Creek",
         "county": "Alameda/Contra Costa",
         "lat": 37.89209763284675,
         "lng": -121.99379879814697,
@@ -145,7 +145,7 @@ const parksData = [
     {
         "id": 14,
         "name": "Tilden (Charles Lee Tilden) Regional Park",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.25,
@@ -156,7 +156,7 @@ const parksData = [
     {
         "id": 15,
         "name": "Claremont Canyon Regional Preserve",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2167,
@@ -167,7 +167,7 @@ const parksData = [
     {
         "id": 16,
         "name": "Contra Loma Regional Park",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -121.7667,
@@ -178,7 +178,7 @@ const parksData = [
     {
         "id": 17,
         "name": "Coyote Hills Regional Park",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.55,
         "lng": -122.1,
@@ -189,7 +189,7 @@ const parksData = [
     {
         "id": 18,
         "name": "Crockett Hills Regional Park",
-        "city": "Various",
+        "city": "Crockett",
         "county": "Alameda/Contra Costa",
         "lat": 38.05,
         "lng": -122.2333,
@@ -200,7 +200,7 @@ const parksData = [
     {
         "id": 19,
         "name": "Cull Canyon Regional Recreation Area",
-        "city": "Various",
+        "city": "Castro Valley",
         "county": "Alameda/Contra Costa",
         "lat": 37.65,
         "lng": -122.0333,
@@ -211,7 +211,7 @@ const parksData = [
     {
         "id": 20,
         "name": "Deer Valley Regional Park",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -121.8333,
@@ -222,7 +222,7 @@ const parksData = [
     {
         "id": 21,
         "name": "Del Valle Regional Park",
-        "city": "Various",
+        "city": "Livermore",
         "county": "Alameda/Contra Costa",
         "lat": 37.5833,
         "lng": -121.6833,
@@ -233,7 +233,7 @@ const parksData = [
     {
         "id": 22,
         "name": "Diablo Foothills Regional Park",
-        "city": "Various",
+        "city": "Walnut Creek",
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.0,
@@ -244,7 +244,7 @@ const parksData = [
     {
         "id": 23,
         "name": "Don Castro Regional Recreation Area",
-        "city": "Various",
+        "city": "Hayward",
         "county": "Alameda/Contra Costa",
         "lat": 37.6833,
         "lng": -122.0833,
@@ -255,7 +255,7 @@ const parksData = [
     {
         "id": 24,
         "name": "Redwood (Dr. Aurelia Reinhardt Redwood) Regional Park",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.1833,
@@ -266,7 +266,7 @@ const parksData = [
     {
         "id": 25,
         "name": "Dublin Hills Regional Park",
-        "city": "Various",
+        "city": "Dublin",
         "county": "Alameda/Contra Costa",
         "lat": 37.7167,
         "lng": -121.8833,
@@ -277,7 +277,7 @@ const parksData = [
     {
         "id": 26,
         "name": "Dumbarton Quarry Campground on the Bay",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -122.1167,
@@ -288,7 +288,7 @@ const parksData = [
     {
         "id": 27,
         "name": "Five Canyons Open Space",
-        "city": "Various",
+        "city": "Castro Valley",
         "county": "Alameda/Contra Costa",
         "lat": 37.7833,
         "lng": -122.0333,
@@ -299,7 +299,7 @@ const parksData = [
     {
         "id": 28,
         "name": "Garin Regional Park",
-        "city": "Various",
+        "city": "Hayward",
         "county": "Alameda/Contra Costa",
         "lat": 37.6167,
         "lng": -122.0,
@@ -310,7 +310,7 @@ const parksData = [
     {
         "id": 29,
         "name": "Dry Creek Pioneer Regional Park",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.6,
         "lng": -122.0167,
@@ -321,7 +321,7 @@ const parksData = [
     {
         "id": 30,
         "name": "Hayward Regional Shoreline",
-        "city": "Various",
+        "city": "Hayward",
         "county": "Alameda/Contra Costa",
         "lat": 37.6333,
         "lng": -122.1167,
@@ -332,7 +332,7 @@ const parksData = [
     {
         "id": 31,
         "name": "Huckleberry Botanic Regional Preserve",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.2,
@@ -343,7 +343,7 @@ const parksData = [
     {
         "id": 32,
         "name": "Judge John Sutter Regional Shoreline",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 38.0,
         "lng": -121.85,
@@ -354,7 +354,7 @@ const parksData = [
     {
         "id": 33,
         "name": "Kennedy Grove Regional Recreation Area",
-        "city": "Various",
+        "city": "El Sobrante",
         "county": "Alameda/Contra Costa",
         "lat": 37.9667,
         "lng": -122.2833,
@@ -365,7 +365,7 @@ const parksData = [
     {
         "id": 34,
         "name": "Lake Chabot Regional Park",
-        "city": "Various",
+        "city": "Castro Valley",
         "county": "Alameda/Contra Costa",
         "lat": 37.7167,
         "lng": -122.1167,
@@ -376,7 +376,7 @@ const parksData = [
     {
         "id": 35,
         "name": "Las Trampas Wilderness Regional Preserve",
-        "city": "Various",
+        "city": "San Ramon",
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -122.0167,
@@ -387,7 +387,7 @@ const parksData = [
     {
         "id": 36,
         "name": "Leona Canyon Regional Open Space Preserve",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.75,
         "lng": -122.1833,
@@ -398,7 +398,7 @@ const parksData = [
     {
         "id": 37,
         "name": "Little Hills Regional Recreation Area",
-        "city": "Various",
+        "city": "San Pablo",
         "county": "Alameda/Contra Costa",
         "lat": 37.81002212697784,
         "lng": -122.04367616409863,
@@ -409,7 +409,7 @@ const parksData = [
     {
         "id": 38,
         "name": "Martin Luther King Jr. Regional Shoreline",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.7833,
         "lng": -122.2167,
@@ -420,7 +420,7 @@ const parksData = [
     {
         "id": 39,
         "name": "McLaughlin Eastshore State Park",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -122.3167,
@@ -431,7 +431,7 @@ const parksData = [
     {
         "id": 40,
         "name": "Miller/Knox Regional Shoreline",
-        "city": "Various",
+        "city": "Richmond",
         "county": "Alameda/Contra Costa",
         "lat": 37.9167,
         "lng": -122.3833,
@@ -442,7 +442,7 @@ const parksData = [
     {
         "id": 41,
         "name": "Mission Peak Regional Preserve",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8833,
@@ -453,7 +453,7 @@ const parksData = [
     {
         "id": 42,
         "name": "Morgan Territory Regional Preserve",
-        "city": "Various",
+        "city": "Clayton",
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -121.8167,
@@ -464,7 +464,7 @@ const parksData = [
     {
         "id": 43,
         "name": "Ohlone Wilderness Regional Preserve",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8167,
@@ -475,7 +475,7 @@ const parksData = [
     {
         "id": 44,
         "name": "Oyster Bay Regional Shoreline",
-        "city": "Various",
+        "city": "San Leandro",
         "county": "Alameda/Contra Costa",
         "lat": 37.6833,
         "lng": -122.2,
@@ -486,7 +486,7 @@ const parksData = [
     {
         "id": 45,
         "name": "Pleasanton Ridge Regional Park",
-        "city": "Various",
+        "city": "Pleasanton",
         "county": "Alameda/Contra Costa",
         "lat": 37.6333,
         "lng": -121.8833,
@@ -497,7 +497,7 @@ const parksData = [
     {
         "id": 46,
         "name": "Point Isabel Regional Shoreline",
-        "city": "Various",
+        "city": "Richmond",
         "county": "Alameda/Contra Costa",
         "lat": 37.9,
         "lng": -122.3667,
@@ -508,7 +508,7 @@ const parksData = [
     {
         "id": 47,
         "name": "Point Pinole Regional Shoreline",
-        "city": "Various",
+        "city": "Richmond",
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -122.3667,
@@ -519,7 +519,7 @@ const parksData = [
     {
         "id": 48,
         "name": "Quarry Lakes Regional Recreation Area",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.5333,
         "lng": -121.9667,
@@ -530,7 +530,7 @@ const parksData = [
     {
         "id": 49,
         "name": "Robert W. Crown Memorial State Beach",
-        "city": "Various",
+        "city": "Alameda",
         "county": "Alameda/Contra Costa",
         "lat": 37.7667,
         "lng": -122.2667,
@@ -541,7 +541,7 @@ const parksData = [
     {
         "id": 50,
         "name": "Roberts Regional Recreation Area",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.8333,
         "lng": -122.1833,
@@ -552,7 +552,7 @@ const parksData = [
     {
         "id": 51,
         "name": "Round Valley Regional Preserve",
-        "city": "Various",
+        "city": "Brentwood",
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -121.7167,
@@ -563,7 +563,7 @@ const parksData = [
     {
         "id": 52,
         "name": "Shadow Cliffs Regional Recreation Area",
-        "city": "Various",
+        "city": "Pleasanton",
         "county": "Alameda/Contra Costa",
         "lat": 37.65,
         "lng": -121.8667,
@@ -574,7 +574,7 @@ const parksData = [
     {
         "id": 53,
         "name": "Sibley Volcanic Regional Preserve",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2,
@@ -585,7 +585,7 @@ const parksData = [
     {
         "id": 54,
         "name": "Sobrante Ridge Regional Preserve",
-        "city": "Various",
+        "city": "El Sobrante",
         "county": "Alameda/Contra Costa",
         "lat": 37.9833,
         "lng": -122.2667,
@@ -596,7 +596,7 @@ const parksData = [
     {
         "id": 55,
         "name": "Sunol Wilderness Regional Preserve",
-        "city": "Various",
+        "city": "Sunol",
         "county": "Alameda/Contra Costa",
         "lat": 37.5167,
         "lng": -121.8333,
@@ -607,7 +607,7 @@ const parksData = [
     {
         "id": 56,
         "name": "Sycamore Valley Open Space Regional Preserve",
-        "city": "Various",
+        "city": "Danville",
         "county": "Alameda/Contra Costa",
         "lat": 37.8167,
         "lng": -121.9833,
@@ -618,7 +618,7 @@ const parksData = [
     {
         "id": 57,
         "name": "Ted and Kathy Radke Martinez Regional Shoreline",
-        "city": "Various",
+        "city": "Martinez",
         "county": "Alameda/Contra Costa",
         "lat": 38.0167,
         "lng": -122.1333,
@@ -629,7 +629,7 @@ const parksData = [
     {
         "id": 58,
         "name": "Temescal Regional Recreation Area",
-        "city": "Various",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 37.85,
         "lng": -122.2333,
@@ -640,7 +640,7 @@ const parksData = [
     {
         "id": 59,
         "name": "Thurgood Marshall Regional Park",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -122.2833,
@@ -651,7 +651,7 @@ const parksData = [
     {
         "id": 60,
         "name": "Tilden Nature Area",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.8833,
         "lng": -122.25,
@@ -662,7 +662,7 @@ const parksData = [
     {
         "id": 61,
         "name": "Tilden Regional Parks Botanic Garden",
-        "city": "Various",
+        "city": "Berkeley",
         "county": "Alameda/Contra Costa",
         "lat": 37.89355003836973,
         "lng": -122.24329555916034,
@@ -673,7 +673,7 @@ const parksData = [
     {
         "id": 62,
         "name": "Vargas Plateau Regional Park",
-        "city": "Various",
+        "city": "Fremont",
         "county": "Alameda/Contra Costa",
         "lat": 37.5667,
         "lng": -121.9167,
@@ -684,7 +684,7 @@ const parksData = [
     {
         "id": 63,
         "name": "Vasco Caves Regional Preserve",
-        "city": "Various",
+        "city": "Brentwood",
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -121.7333,
@@ -695,7 +695,7 @@ const parksData = [
     {
         "id": 64,
         "name": "Waterbird Regional Preserve",
-        "city": "Various",
+        "city": "Antioch",
         "county": "Alameda/Contra Costa",
         "lat": 38.0167,
         "lng": -121.8167,
@@ -706,7 +706,7 @@ const parksData = [
     {
         "id": 65,
         "name": "Wildcat Canyon Regional Park",
-        "city": "Various",
+        "city": "Richmond",
         "county": "Alameda/Contra Costa",
         "lat": 37.95,
         "lng": -122.3167,
