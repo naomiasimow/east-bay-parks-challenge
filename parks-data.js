@@ -640,7 +640,7 @@ const parksData = [
     {
         "id": 59,
         "name": "Thurgood Marshall Regional Park",
-        "city": "Berkeley",
+        "city": "Concord",
         "county": "Alameda/Contra Costa",
         "lat": 37.8667,
         "lng": -122.2833,
