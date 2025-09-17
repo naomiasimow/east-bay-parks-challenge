@@ -136,9 +136,7 @@ class EBRPTracker {
             <div class="park-popup">
                 <h3>${park.name}</h3>
                 <p><strong>City:</strong> ${park.city}</p>
-                <p><strong>County:</strong> ${park.county}</p>
                 <p><strong>Size:</strong> ${park.acres} acres</p>
-                <p><strong>Description:</strong> ${park.description}</p>
                 <div class="popup-buttons">
                     <button onclick="tracker.toggleParkVisit(${park.id})" class="visit-btn">
                         ${this.visitedParks.has(park.id) ? 'Mark as Not Visited' : 'Mark as Visited'}
