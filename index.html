@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East Bay Regional Parks Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>East Bay Regional Parks Challenge</h1>
+            <p>How many of the 65 East Bay Regional Parks have you visited?</p>
+        </header>
+
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+        <div class="controls">
+            <h2>Park Checklist</h2>
+            <div class="sort-controls">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                    <option value="alphabetical">Alphabetical</option>
+                    <option value="city">City</option>
+                    <option value="visited">Visited Status</option>
+                </select>
+                <button id="clear-all">Clear All</button>
+                <button id="export-data">Export Progress</button>
+            </div>
+
+            <div class="stats">
+                <span id="visited-count">0</span> of <span id="total-count">65</span> parks visited
+                (<span id="percentage">0%</span>)
+            </div>
+
+            <div class="park-list" id="park-list">
+                <!-- Park checkboxes will be dynamically generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="parks-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

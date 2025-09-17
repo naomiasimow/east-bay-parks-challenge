@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# CPAD data folder (large files)
+cpad_2025a_release/
+
+# Processing scripts (not needed for website)
+extract_park_boundaries.py
+update_parks_data.py
+extract_corrected_parks.py
+park_matching_summary*.json
