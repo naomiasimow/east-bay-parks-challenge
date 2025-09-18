@@ -343,7 +343,7 @@ const parksData = [
     {
         "id": 32,
         "name": "Judge John Sutter Regional Shoreline",
-        "city": "Antioch",
+        "city": "Oakland",
         "county": "Alameda/Contra Costa",
         "lat": 38.0,
         "lng": -121.85,
