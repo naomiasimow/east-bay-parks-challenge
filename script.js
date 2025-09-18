@@ -285,6 +285,13 @@ class EBRPTracker {
         document.getElementById('percentage').textContent = `${percentage}%`;
         document.getElementById('total-acres').textContent = totalAcres.toLocaleString();
         document.getElementById('visited-acres').textContent = visitedAcres.toLocaleString();
+
+        // Update progress bar
+        const progressFill = document.getElementById('progress-fill');
+        const progressText = document.getElementById('progress-text');
+
+        progressFill.style.width = `${percentage}%`;
+        progressText.textContent = `${percentage}% Complete`;
     }
 
     setupEventListeners() {

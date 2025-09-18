@@ -73,6 +73,62 @@ header p {
     margin: 0;
 }
 
+.progress-section {
+    margin-bottom: 2rem;
+}
+
+.progress-bar-container {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: var(--parchment);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid var(--border);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--sage-green) 0%, var(--forest-medium) 100%);
+    border-radius: 8px;
+    width: 0%;
+    transition: width 0.6s ease-in-out;
+    position: relative;
+}
+
+.progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.progress-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--forest-dark);
+    letter-spacing: -0.025em;
+}
+
 .map-container {
     margin-bottom: 3rem;
     border-radius: var(--radius-lg);
